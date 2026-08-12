@@ -1,6 +1,6 @@
 # About
 
-`DirGen` is a tool implemented in the paper **The Compiler Removed My Live Code! Exposing Buggy Dead Code Elimination via Directed Test Case Generation** (under review).
+`DirGen` is a tool implemented in the paper **A Directed Approach for Detecting Latent Miscompilation Bugs in Compiler Optimization Pipelines** (under review).
 
 ## This repository includes two parts:
 
