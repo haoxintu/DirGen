@@ -1,6 +1,6 @@
 # About
 
-`DirGen` is a tool implemented in the paper **A Directed Approach for Detecting Latent Miscompilation Bugs in Compiler Optimization Pipelines** (under review).
+`DirGen` is a tool implemented in the paper **Divergence-Directed Compiler Testing: Exposing Latent Miscompilations in Compiler Optimization Pipelines** (under review).
 
 ## This repository includes two parts:
 
