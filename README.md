@@ -31,11 +31,11 @@ DirGen
 
 ## Quick Setup
 
-To set up **DirGen**, users could execute the following to install the required packages
+To set up **DirGen**, users can execute the following to install the required packages
 
 ```
 
-git clone https://github.com/AnonyGiit/DirGen
+git clone https://github.com/haoxintu/DirGen
 ./setup.sh
 ```
 
@@ -53,7 +53,7 @@ This script supports the following command-line options:
   **Default Behavior:** Marker reduction is **enabled** by default.  
 
 - `--gen-mode`  
-  **Description:** Enable different modes for directed test case generation: `se`, `random`, or `hybrid`.  
+  **Description:** Enables different modes for directed test case generation: `se`, `random`, or `hybrid`.  
   **Default Behavior:** `hybrid` is used by default.  
 
 - `--num-tests <int>`  
@@ -72,7 +72,7 @@ parser.set_defaults(
 ```
 ## Usage
 
-* Run the following to lanuch the tool
+* Run the following to launch the tool
 
 ```
 python run-dirgen.py
@@ -85,10 +85,10 @@ python run-dirgen.py
 cmd_list :  ['gcc-11.1.0 -w -std=c99 -O1', 'gcc-11.1.0 -w -std=c99 -O3']
 Execution time:  1.1920928955078125e-06
 
-Geting binaries ...  0
+Getting binaries ...  0
 ✅ Inserted 68 marker calls and moved only function definitions before main()
-[+] OPT 1 is Applied: Do select interesting variables to be symbolized ...
-number of symbolic variables :  47
+[+] OPT 1 is applied: Do select interesting variables to be symbolized ...
+number of symbolic variables:  47
 
 ========== Processing testcase_1 with Data-Flow Analysis ==========
 [-] Number of global variables (before OPT) :  64
@@ -97,20 +97,20 @@ number of symbolic variables :  47
 Analyzing binaries ...
 before comparing set1:  {'67', '1'}
 before comparing set2:  {'67', '1'}
-intersect :  {'67', '1'}
+intersect:  {'67', '1'}
 marker interesting :  {'test1': set(), 'test2': set()}
 No interesting markers ...
 ############### No.0 count_var_org = 64, count_var_reduced = 17; count_diff = 0; count_org_marker = 0; count_reduced_marker = 0; count_se = 0
 Execution time:  1.3597609996795654
 
-Geting binaries ...  1
+Getting binaries ...  1
 ✅ Inserted 133 marker calls and moved only function definitions before main()
-[+] OPT 1 is Applied: Do select interesting variables to be symbolized ...
-number of symbolic variables :  23
+[+] OPT 1 is applied: Do select interesting variables to be symbolized ...
+number of symbolic variables:  23
 
 ========== Processing testcase_1 with Data-Flow Analysis ==========
 [-] Number of global variables (before OPT) :  33
-[+] reduced number of global variables (after OPT) :  16
+[+] Reduced number of global variables (after OPT) :  16
  * Seed:      11435502584511641187
 Analyzing binaries ...
 before comparing set1:  {'1', '132', '0'}
